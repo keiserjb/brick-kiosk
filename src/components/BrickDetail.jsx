@@ -30,6 +30,7 @@ function BrickDetail({ title,
       <Modal
         show={show}
         onHide={handleClose}
+        backdrop="static"
         keyboard={false}
       >
         <Modal.Header closeButton>
@@ -54,7 +55,7 @@ function BrickDetail({ title,
           </div>
           <div className="brick-wrapper-1000" style={{display: background1000 ? "flex" : "none"}}>
 
-            <div className="brick-contents">
+            <div className="brick-contents-1000">
               <p className="brick-text-1000 text-center">{firstLine1000}</p>
               <p className="brick-text-1000 text-center">{secondLine1000}</p>
               <p className="brick-text-1000 text-center">{thirdLine1000}</p>

@@ -1,3 +1,9 @@
+#root {
+  padding: 15px;
+  margin: auto;
+  max-width: 1150px;
+}
+
 .brick-container {
   display: flex;
   flex-direction: row;
@@ -6,8 +12,6 @@
   align-items: center;
   gap: 15px;
   background-color: #eee;
-  padding: 15px 0px 15px 0px;
-  margin: -15px 0px -15px 0px;
 }
 
 /* .brick-container p {
@@ -137,8 +141,8 @@
   height: 0px;
 }
 
-.brick-contents-1000 {
-  height: 300px;
+ .brick-contents-1000 {
+  height: 150px;
 }
 
 .brick-contents-view {
@@ -164,7 +168,7 @@
 
 .brick-text-1000 {
   color: #e2cea2 !important;
-  font-size: 7rem !important;
+  font-size: 6rem !important;
   font-weight: bold;
 }
 
@@ -241,4 +245,5 @@
 }
  .brick-button {
   margin-top: 10px;
+  margin-bottom: 10px;
  }
