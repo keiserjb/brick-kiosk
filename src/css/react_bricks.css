@@ -152,6 +152,12 @@
   height: 150px;
 }
 
+@media (max-width: 499px) {
+  .brick-contents-1000 {
+    height: 10px;
+    }
+  }
+
 .brick-contents-view {
   /*height: 0px;*/
 }
