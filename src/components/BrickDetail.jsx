@@ -54,7 +54,7 @@ function BrickDetail({ title,
           </div>
           <div className="brick-wrapper-1000" style={{display: background1000 ? "flex" : "none"}}>
 
-            <div className="brick-contents-1000">
+            <div className="brick-contents">
               <p className="brick-text-1000 text-center">{firstLine1000}</p>
               <p className="brick-text-1000 text-center">{secondLine1000}</p>
               <p className="brick-text-1000 text-center">{thirdLine1000}</p>
