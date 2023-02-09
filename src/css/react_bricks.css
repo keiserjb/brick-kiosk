@@ -23,6 +23,7 @@
   height: 500px;
   margin: 0px 0px 20px 0px;
   background-image: url(../images/brick-100.png);
+  background-image: -webkit-image-set(url(../images/brick-100.webp) 1x);
   background-repeat: no-repeat;
   background-size: cover;
   line-height: 1;
@@ -33,11 +34,13 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .brick-wrapper-500 {
   width: 1000px;
   height: 500px;
   margin: 0px 0px 20px 0px;
   background-image: url(../images/brick-500.png);
+  background-image: -webkit-image-set(url(../images/brick-500.webp) 1x);
   background-repeat: no-repeat;
   background-size: cover;
   line-height: 1;
@@ -54,6 +57,7 @@
   height: 1000px;
   margin: 0px 0px 20px 0px;
   background-image: url(../images/brick-1000.png);
+  background-image: -webkit-image-set(url(../images/brick-1000.webp) 1x);
   background-repeat: no-repeat;
   background-size: cover;
   line-height: 1;
@@ -74,6 +78,7 @@
   width: 250px;
   height: 125px;
   background-image: url(../images/brick-100.png);
+  background-image: -webkit-image-set(url(../images/brick-100.webp) 1x);
   background-repeat: no-repeat;
   background-size: cover;
   line-height: 1rem;
@@ -86,6 +91,7 @@
   width: 250px;
   height: 125px;
   background-image: url(../images/brick-500.png);
+  background-image: -webkit-image-set(url(../images/brick-500.webp) 1x);
   background-repeat: no-repeat;
   background-size: cover;
   line-height: 1rem;
@@ -98,14 +104,15 @@
   width: 250px;
   height: 250px;
   background-image: url(../images/brick-1000.png);
+  background-image: -webkit-image-set(url(../images/brick-1000.webp) 1x);
   background-repeat: no-repeat;
   background-size: cover;
   line-height: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
 }
+
 
 @media (max-width: 499px) {
 .brick-wrapper-500, .brick-wrapper-100 {
