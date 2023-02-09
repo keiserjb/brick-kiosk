@@ -229,3 +229,16 @@
   margin: 0px !important;
 }
 
+.modal {
+    text-align: center;
+}
+
+.modal-dialog {
+    text-align: left; /* you'll likely want this */
+    max-width: fit-content !important;
+    width: auto !important;
+    display: inline-block;
+}
+ .brick-button {
+  margin-top: 10px;
+ }
