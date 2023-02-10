@@ -19,8 +19,8 @@
 } */
 
 .brick-wrapper-100 {
-  width: 1000px;
-  height: 500px;
+  width: 500px;
+  height: 250px;
   margin: 0px 0px 20px 0px;
   background-image: url(../images/brick-100.png);
   background-image: -webkit-image-set(url(../images/brick-100.webp) 1x);
@@ -36,8 +36,8 @@
 }
 
 .brick-wrapper-500 {
-  width: 1000px;
-  height: 500px;
+  width: 500px;
+  height: 250px;
   margin: 0px 0px 20px 0px;
   background-image: url(../images/brick-500.png);
   background-image: -webkit-image-set(url(../images/brick-500.webp) 1x);
@@ -53,8 +53,8 @@
 }
 
 .brick-wrapper-1000 {
-  width: 1000px;
-  height: 1000px;
+  width: 500px;
+  height: 500px;
   margin: 0px 0px 20px 0px;
   background-image: url(../images/brick-1000.png);
   background-image: -webkit-image-set(url(../images/brick-1000.webp) 1x);
@@ -149,7 +149,7 @@
 }
 
  .brick-contents-1000 {
-  height: 150px;
+  height: 100px;
 }
 
 @media (max-width: 499px) {
@@ -158,30 +158,26 @@
     }
   }
 
-.brick-contents-view {
-  /*height: 0px;*/
-}
 
 .brick-contents-view-1000 {
-  /*height: 90px;*/
   padding-bottom: 3px;
 }
 
 .brick-text-100 {
   color: #192120 !important;
-  font-size: 4.5rem !important;
+  font-size: 2.5rem !important;
   font-weight: bold;
 }
 
 .brick-text-500 {
   color: #e2cea2 !important;
-  font-size: 4.5rem !important;
+  font-size: 2.5rem !important;
   font-weight: bold;
 }
 
 .brick-text-1000 {
   color: #e2cea2 !important;
-  font-size: 6rem !important;
+  font-size: 2.5rem !important;
   font-weight: bold;
 }
 
